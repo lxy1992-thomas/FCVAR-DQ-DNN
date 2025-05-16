@@ -20,6 +20,6 @@ To get started, you first need to install python package PyTorch (https://pytorc
 
 9. localrqgrid.py: Python code for local linear quantile estimation at each grid point.
 
-10. ph.py: auxiliary functions for bandwidthaic.py.
+10. ph.py: auxiliary function for bandwidthaic.py.
 
-data: Concrete Compressive Strength Data Set (concrete.csv), available at https://archive.ics.uci.edu.
+data: log difference return data used in the empirical study. The raw dataset is downloaded in Yahoo Finance and the Federal Reserve Bank of St. Louis.
