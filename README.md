@@ -8,12 +8,18 @@ To get started, you first need to install python package PyTorch (https://pytorc
 
 3. fvdcq_dnn_validation.ipynb: Jupyter file to select the best neural network models in the simulation study using the validation dataset.
    
-4. 
+4. empirical_study_main.ipynb: Jupyter file to replicate the empirical results in Section 4.
 
-4. bandwidthaic.py: Function of AIC criterion used for selecting bandwidth h.
+5. bandwidthaic.py: Python code of AIC criterion used for selecting bandwidth h.
 
-5. ci.py: Function used for calculating confidence interval.
+6. ci.py: Python code for calculating confidence interval.
 
-plot.R: R code to plot confidence intervals and prediction errors.
+7. dqAux_new.py: auxiliary functions for sparsely connected neural network.
+
+8. localrq.py: Python code for local linear quantile estimation.
+
+9. localrqgrid.py: Python code for local linear quantile estimation at each grid point.
+
+10. ph.py: auxiliary functions for bandwidthaic.py.
 
 data: Concrete Compressive Strength Data Set (concrete.csv), available at https://archive.ics.uci.edu.
